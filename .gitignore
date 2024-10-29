@@ -19,7 +19,7 @@ env.bak/
 venv.bak/
 
 # Data
-data/
+data/*
 
 # Track empty directories
 !.gitkeep
