@@ -21,5 +21,14 @@ venv.bak/
 # Data
 data/*
 
+# Documentation
+docs
+
+# Model
+model/*
+
+# Experiment
+experiment.ipynb
+
 # Track empty directories
 !.gitkeep
