@@ -2,11 +2,11 @@
 
 Gain insights into customer sentiment based on hotel reviews across Europe.
 
-## 📄 Project Overview
+## 📄 Project Topic
 
-Hotel review sentiment analysis detects customer opinions, helping businesses understand customer satisfaction and areas for improvement. By analyzing feedback, companies can identify positive and negative sentiments and uncover recurring themes. This information enables proactive responses to customer concerns, enhancements to customer experience, and strategic improvements in marketing to reduce churn and maximize profits.
+Customer review sentiment analysis is a process of detecting customers' feelings after they have purchased a company's products. The company can gather this information from product reviews, feedback forms, tickets to their help center, online surveys, etc. Every company is interested in conducting customer feedback sentiment analysis since it's a secure way to determine possible reasons for customers' complaints, and to strengthen the product features that make customers happy. As a result, the business can take measures to fix the issues in a timely manner, improve the customer experience, reduce the customer churn rate, adjust marketing campaigns, and maximize profits.
 
-This project processes and explores hotel review data, using statistical and linguistic techniques to identify and quantify sentiment strengths (positive, negative, neutral) and subjective nuances. Note that while text analysis provides valuable insights, limitations exist, such as challenges in interpreting slang, uncommon abbreviations, or sarcasm.
+To build a project on customer review sentiment analysis, you need to find an available dataset (e.g., Sentiment analysis with hotel reviews - <https://www.kaggle.com/code/jonathanoheix/sentiment-analysis-with-hotel-reviews/data>) with text data extracted from customer reviews of a certain company. Alternatively, consider parsing such data from the internet by yourself. Your task in this project is to preprocess the text data and explore it using specialized statistical and linguistic tools to identify positive, negative, and neutral experiences and, ideally, their strength and subjectivity.  Be aware of some intrinsic weaknesses of text analysis techniques. For example, they aren't always able to interpret slang words or rarely used abbreviations — or detect sarcasm.
 
 ## 📝 Data Source
 
@@ -14,7 +14,7 @@ This project processes and explores hotel review data, using statistical and lin
 - **Link**: [Kaggle Dataset](https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe/data)
 - **Size**: 515,000+ reviews, including attributes like hotel name, location, and review text.
 
-## 🛠️ Installation
+## 📥 Installation
 
 1. **Install dependencies**:
 
@@ -28,8 +28,12 @@ This project processes and explores hotel review data, using statistical and lin
     poetry shell
     ```
 
+3. **Download the dataset**:
+
+    ```bash
+    kaggle datasets download jiashenliu/515k-hotel-reviews-data-in-europe
+    ```
+
 ## 🚀 Usage
 
-1. **Data Preprocessing**: Run the notebook `notebook/preprocess_data.ipynb` to clean and preprocess the raw review data.
-
-2. **Exploratory Data Analysis (EDA)**: Use `notebook/eda.ipynb` to explore and visualize data patterns, preparing for sentiment analysis.
+🛠️ This repository is still in development.
