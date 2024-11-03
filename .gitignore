@@ -21,5 +21,8 @@ venv.bak/
 # Data
 data/*
 
+# Saved models
+model/*
+
 # Track empty directories
 !.gitkeep
