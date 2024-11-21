@@ -13,12 +13,26 @@ matplotlib = "^3.9.2"
 wordcloud = "^1.9.3"
 seaborn = "^0.13.2"
 scikit-learn = "^1.5.2"
+torch = {version = "^2.5.1+cu124", source = "pytorch_cuda"}
+torchvision = {version = "^0.20.1+cu124", source = "pytorch_cuda"}
+transformers = "^4.46.3"
+accelerate = "^1.1.1"
+peft = "^0.13.2"
+bitsandbytes = "^0.44.1"
+datasets = "^3.1.0"
+evaluate = "^0.4.3"
 
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
 ipywidgets = "^8.1.5"
 kaggle = "^1.6.17"
+
+
+[[tool.poetry.source]]
+name = "pytorch_cuda"
+url = "https://download.pytorch.org/whl/cu124"
+priority = "explicit"
 
 [build-system]
 requires = ["poetry-core"]

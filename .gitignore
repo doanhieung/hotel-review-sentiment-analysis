@@ -26,3 +26,6 @@ model/*
 
 # Track empty directories
 !.gitkeep
+
+# Experiments
+*experiment*.ipynb
