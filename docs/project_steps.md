@@ -18,7 +18,7 @@
 
 ## 3. Explore and Clean the Data
 
-[[Source Code]](./notebook/1_preprocess_data.ipynb)
+[[Source Code]](../notebook/1_preprocess_data.ipynb)
 
 - **Data Loading:**
   - Load the dataset and identify the hotel with the most reviews for targeted analysis.
@@ -33,7 +33,7 @@
 
 ## 4. Exploratory Data Analysis (EDA)
 
-[[Source Code]](./notebook/2_eda.ipynb)
+[[Source Code]](../notebook/2_eda.ipynb)
 
 - **Sentiment Distribution:**
   - Analyze reviewer scores and trends over time.
@@ -51,7 +51,7 @@
 
 ### **Approach 1: Machine Learning Models**
 
-[[Source Code]](./notebook/3_machine_learning.ipynb)
+[[Source Code]](../notebook/3_machine_learning.ipynb)
 
 1. **Feature Extraction:** Generate Term Frequency-Inverse Document Frequency (TF-IDF) features.
 2. **Modeling:**
@@ -60,7 +60,7 @@
 
 ### **Approach 2 (Optional): Large Language Models**
 
-[[Source Code]](./notebook/4_llm_optional.ipynb)
+[[Source Code]](../notebook/4_llm_optional.ipynb)
 
 1. **Pretrained Model:** OpenAI GPT-4o-mini.
 2. **Alternative Open-source Models:** Meta LLaMA, Gemma, etc.
@@ -74,7 +74,7 @@
 
 ## 7. Extract Insights
 
-[[Source Code]](./notebook/2_eda.ipynb)
+[[Source Code]](../notebook/2_eda.ipynb)
 
 - **Insights Summary:** Derived from EDA, including sentiment distribution and key topics.
 - **Actionable Insights:** Highlight recommendations based on trends and common issues.
