@@ -36,4 +36,4 @@ To build a project on customer review sentiment analysis, you need to find an av
 
 ## 🚀 Usage
 
-🛠️ This repository is still in development.
+For detailed instructions, refer to the [Project Steps](./docs/project_steps.md).
