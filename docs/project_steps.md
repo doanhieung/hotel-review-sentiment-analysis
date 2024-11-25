@@ -81,7 +81,10 @@
 
 ## 8. Present the Results
 
-- **Visualization Tools:** Create interactive dashboards using **Power BI** or similar tools.
+- **Visualization Tools:** Create interactive dashboards using **Power BI**:
+
+![Power BI Screenshot](Screenshot%202024-11-25%20162947.png)
+
 - **Final Report:** Deliver actionable recommendations in a clear, structured format.
 
 ## 9. Deploy the Sentiment Analysis Pipeline [Future Work]
